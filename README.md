@@ -176,51 +176,7 @@ All models trained with E5's **prefix convention**:
 
 > *Note: "—" indicates that Recall@10 and MRR@10 were not recorded for BM25 in the available experimental logs.*
 
-### TREC Deep Learning 2019 — Hindi Passage Retrieval
 
-| Model | MRR@10 | Recall@10 | NDCG@10 | nDCG@1 | Recall@1000 |
-|-------|--------|-----------|---------|--------|-------------|
-| **BM25** (Hindi Analyzer) | — | — | 0.2858 | 0.3837 | 0.3853 |
-| **E5-Small** (dense) | 0.5823 | 0.3941 | 0.5712 | — | — |
-| **E5-Base** (dense) | 0.6104 | 0.4218 | 0.6031 | — | — |
-| **E5-Large** (dense) | **0.6387** | **0.4503** | **0.6312** | — | — |
-
-### TREC Deep Learning 2020 — Hindi Passage Retrieval
-
-| Model | MRR@10 | Recall@10 | NDCG@10 | nDCG@1 | Recall@1000 |
-|-------|--------|-----------|---------|--------|-------------|
-| **BM25** (Hindi Analyzer) | — | — | 0.2383 | 0.2870 | 0.3717 |
-| **E5-Small** (dense) | 0.5412 | 0.3687 | 0.5298 | — | — |
-| **E5-Base** (dense) | 0.5731 | 0.3914 | 0.5609 | — | — |
-| **E5-Large** (dense) | **0.6018** | **0.4201** | **0.5942** | — | — |
-
-### BM25 Full Metric Breakdown (pytrec_eval)
-
-#### TREC DL 2019 (43 Hindi queries)
-
-| Metric | Score |
-|--------|-------|
-| nDCG@1 | 0.3837 |
-| nDCG@10 | 0.2858 |
-| nDCG@100 | 0.2645 |
-| nDCG@1000 | 0.3179 |
-| Recall@1 | 0.0158 |
-| Recall@10 | 0.0774 |
-| Recall@100 | 0.2342 |
-| Recall@1000 | 0.3853 |
-
-#### TREC DL 2020 (54 Hindi queries)
-
-| Metric | Score |
-|--------|-------|
-| nDCG@1 | 0.2870 |
-| nDCG@10 | 0.2383 |
-| nDCG@100 | 0.2145 |
-| nDCG@1000 | 0.2782 |
-| Recall@1 | 0.0170 |
-| Recall@10 | 0.0789 |
-| Recall@100 | 0.2118 |
-| Recall@1000 | 0.3717 |
 
 ### Model Comparison Summary
 
